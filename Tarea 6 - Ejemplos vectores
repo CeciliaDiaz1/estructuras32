@@ -1,0 +1,28 @@
+import numpy as np
+import matplotlib.pylab as plt
+
+# Ejercicio 1
+vector = np.array([10,20,30,40,50]​) 
+vector2 = np.array([50,40,30,20,10]) 
+print (vector + vector2)
+print ("")
+
+# Ejercicio 2
+vector3 = np.array([24,9,16,32,55])
+vector4 = np.array([5,12,23,18])
+print (vector3 + vector4)
+print ("")
+
+# Ejercicio 3
+vector5 = np.array([30,25,17,3,28])
+vector6 = np.array([7,19,31,11,5,43])
+print (vector5 + vector6)
+print ("")
+
+# Ejercicio 4
+x = np.linspace(-7, 8, 34)
+y1 = 3*x
+
+plt.figure(num='PrimerGrafico')
+plt.plot(x, y1)
+plt.show()
